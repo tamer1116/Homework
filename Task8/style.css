@@ -1,0 +1,94 @@
+* {
+  background-color: rgb(74, 73, 73);
+}
+
+header {
+  text-align: center;
+}
+header h1 {
+  color: white;
+  font-size: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header p {
+  color: rgb(214, 214, 214);
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  row-gap: 15px;
+  grid-template: 150px 180px 200px 200px 150px 150px/200px 200px 110px 200px 180px 180px;
+  grid-template-areas: "item5 item1 item1 item1 item3 item3" "item6 item1 item1 item1 item4 item4" "item7 item9 item2 item2 item11 item12" "item8 item10 item2 item2 item13 item14";
+}
+.container .item1 {
+  background: linear-gradient(90deg, rgb(235, 104, 255) 5%, rgb(228, 63, 202) 25%, rgb(215, 76, 215) 49%);
+  grid-area: item1;
+}
+.container .item2 {
+  background: linear-gradient(90deg, rgb(235, 104, 255) 5%, rgb(228, 63, 202) 25%, rgb(215, 76, 215) 49%);
+  grid-area: item2;
+}
+.container .item3 {
+  background: linear-gradient(90deg, rgb(77, 116, 221) 5%, rgb(63, 97, 228) 40%, rgb(80, 145, 255) 97%);
+  grid-area: item3;
+}
+.container .item4 {
+  background: linear-gradient(90deg, rgb(77, 116, 221) 5%, rgb(63, 97, 228) 40%, rgb(80, 145, 255) 97%);
+  grid-area: item4;
+}
+.container .item5 {
+  background: linear-gradient(90deg, rgb(255, 107, 190) 5%, rgb(255, 17, 254) 49%, rgb(255, 2, 224) 97%);
+  grid-area: item5;
+}
+.container .item6 {
+  background: linear-gradient(90deg, rgb(255, 107, 190) 5%, rgb(255, 17, 254) 49%, rgb(255, 2, 224) 97%);
+  grid-area: item6;
+}
+.container .item7 {
+  background: linear-gradient(90deg, rgb(255, 107, 190) 5%, rgb(255, 17, 254) 49%, rgb(255, 2, 224) 97%);
+  grid-area: item7;
+}
+.container .item8 {
+  background: linear-gradient(90deg, rgb(255, 107, 190) 5%, rgb(255, 17, 254) 49%, rgb(255, 2, 224) 97%);
+  grid-area: item8;
+}
+.container .item9 {
+  background: linear-gradient(90deg, rgb(255, 107, 190) 5%, rgb(255, 17, 254) 49%, rgb(255, 2, 224) 97%);
+  grid-area: item9;
+}
+.container .item10 {
+  background: linear-gradient(90deg, rgb(255, 107, 190) 5%, rgb(255, 17, 254) 49%, rgb(255, 2, 224) 97%);
+  grid-area: item10;
+}
+.container .item11 {
+  background: linear-gradient(90deg, rgb(255, 107, 190) 5%, rgb(255, 17, 254) 49%, rgb(255, 2, 224) 97%);
+  grid-area: item11;
+}
+.container .item12 {
+  background: linear-gradient(90deg, rgb(255, 107, 190) 5%, rgb(255, 17, 254) 49%, rgb(255, 2, 224) 97%);
+  grid-area: item12;
+}
+.container .item13 {
+  background: linear-gradient(90deg, rgb(255, 107, 190) 5%, rgb(255, 17, 254) 49%, rgb(255, 2, 224) 97%);
+  grid-area: item13;
+}
+.container .item14 {
+  background: linear-gradient(90deg, rgb(255, 107, 190) 5%, rgb(255, 17, 254) 49%, rgb(255, 2, 224) 97%);
+  grid-area: item14;
+}
+.container div {
+  text-align: center;
+  padding-top: 79px;
+}
+.container .item1 .fa-diamond,
+.container .item2 .fa-diamond {
+  padding-top: 100px;
+}
+.container i {
+  background: transparent;
+}/*# sourceMappingURL=style.css.map */

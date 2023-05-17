@@ -1,0 +1,124 @@
+* {
+    background-color: rgb(74, 73, 73);
+}
+
+$mycolor: linear-gradient(90deg, rgba(255, 107, 190, 1) 5%, rgba(255, 17, 254, 1) 49%, rgba(255, 2, 224, 1) 97%);
+$mycolor2: linear-gradient(90deg, rgba(77, 116, 221, 1) 5%, rgba(63, 97, 228, 1) 40%, rgba(80, 145, 255, 1) 97%);
+$mycolor3:  linear-gradient(90deg, rgba(235, 104, 255, 1) 5%, rgba(228, 63, 202, 1) 25%, rgba(215, 76, 215, 1) 49%);
+header {
+    text-align: center;
+
+    h1 {
+        color: white;
+        font-size: 38px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p {
+        color: rgb(214, 214, 214);
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    column-gap: 15px;
+    row-gap: 15px;
+    grid-template: 150px 180px 200px 200px 150px 150px / 200px 200px 110px 200px 180px 180px;
+    grid-template-areas:
+        "item5 item1 item1 item1 item3 item3"
+        "item6 item1 item1 item1 item4 item4"
+        "item7 item9 item2 item2 item11 item12"
+        "item8 item10 item2 item2 item13 item14";
+
+    .item1 {
+        background: $mycolor3 ;
+        grid-area: item1;
+    }
+
+    .item2 {
+        background: $mycolor3 ;
+        grid-area: item2;
+    } 
+
+    
+    .item3 {
+        background: $mycolor2 ;
+        grid-area: item3;
+    }
+
+    .item4 { 
+        background: $mycolor2 ;
+        grid-area: item4;
+    }
+
+    .item5 {
+        background: $mycolor; 
+        grid-area: item5;
+    }
+
+    .item6 {
+        background: $mycolor; 
+        grid-area: item6;
+    }
+
+    .item7 {
+        background: $mycolor; 
+        grid-area: item7;
+    }
+
+    .item8 {
+        background: $mycolor; 
+        grid-area: item8;
+    }
+
+    .item9 {
+        background: $mycolor; 
+        grid-area: item9;
+    }
+
+    .item10 {
+        background: $mycolor; 
+        grid-area: item10;
+    }
+
+    .item11 {
+        background: $mycolor; 
+        grid-area: item11;
+    }
+
+    .item12 {
+        background: $mycolor; 
+        grid-area: item12;
+    }
+
+    .item13 {
+        background: $mycolor; 
+        grid-area: item13;
+    }
+
+    .item14 {
+        background:$mycolor; 
+        grid-area: item14;
+    }
+
+    div {
+        text-align: center;
+        padding-top: 79px;
+    }
+
+    .item1,
+    .item2 {
+        .fa-diamond {
+            padding-top: 100px;
+
+        }
+    }
+
+    i {
+        background: transparent;
+
+    }
+}
