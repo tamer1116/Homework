@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8f90113f88.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-image: url(/WEBSITE/body-bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #350f86;">
+            <div class="container-fluid">
+                <img height="75" src="/WEBSITE/squad-game9698-removebg-preview.png" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+
+
+
+    <div class="container-lg my-3">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+            </ol>
+
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://wallpaperboat.com/wp-content/uploads/2021/10/18/79418/squid-game-11.jpg"
+                        class="d-block w-100 rounded " alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://wallpapercave.com/wp/xpt5VKe.jpg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://wallpaper-house.com/data/out/4/wallpaper2you_30042.jpg" class="d-block w-100"
+                        alt="Slide 3">
+                </div>
+            </div>
+
+
+            <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <section class="matches-section padding">
+        <div class="container">
+            <div class="section-heading mb-40 text-center wow fade-in-bottom" data-wow-delay="200ms"
+                style="visibility: visible; animation-delay: 200ms; animation-name: fade-in-bottom;">
+                <h3>Upcoming matches</h3>
+                <h2>Battles Extreme <br> Masters <span>Tournament</span></h2>
+                <p>Our success in creating business solutions is due in large part <br>to our talented and highly
+                    committed team.</p>
+            </div>
+            <div class="upcoming-matches">
+                <div class="matches-list">
+                    <div class="participate-team wow fade-in-left" data-wow-delay="200ms"
+                        style="visibility: visible; animation-delay: 200ms; animation-name: fade-in-left;">
+                        <img src="/WEBSITE/team-logo-1.png" alt="team">
+                        <h3><a href="team-details.html">Purple Death Cadets</a></h3>
+                        <div class="match-info">Group 04 | Match 06th</div>
+                    </div>
+                    <div class="match-time">
+                        <h3>10:00 <span>25TH May 2024</span></h3>
+
+                    </div>
+                    <div class="participate-team oponent wow fade-in-right" data-wow-delay="200ms"
+                        style="visibility: visible; animation-delay: 200ms; animation-name: fade-in-right;">
+                        <h3><a href="team-details.html">Trigger Brain Squad</a></h3>
+                        <div class="match-info">Group 04 | Match 06th</div>
+                        <img src="/WEBSITE/team-logo-2.png" alt="team">
+                    </div>
+                </div>
+                <div class="matches-list">
+                    <div class="participate-team wow fade-in-left" data-wow-delay="400ms"
+                        style="visibility: visible; animation-delay: 400ms; animation-name: fade-in-left;">
+                        <img src="/WEBSITE/team-logo-3.png" alt="team">
+                        <h3><a href="team-details.html">The Black Hat Hackers</a></h3>
+                        <div class="match-info">Group 04 | Match 06th</div>
+                    </div>
+                    <div class="match-time">
+                        <h3>12:30 <span>10TH Jan 2024</span></h3>
+
+                    </div>
+                    <div class="participate-team oponent wow fade-in-right" data-wow-delay="400ms"
+                        style="visibility: visible; animation-delay: 400ms; animation-name: fade-in-right;">
+                        <h3><a href="team-details.html">Your Worst Nightmare</a></h3>
+                        <div class="match-info">Group 05 | Match 02nd</div>
+                        <img src="/WEBSITE/team-logo-4.png" alt="team">
+                    </div>
+                </div>
+                <div class="matches-list">
+                    <div class="participate-team wow fade-in-left" data-wow-delay="600ms"
+                        style="visibility: visible; animation-delay: 600ms; animation-name: fade-in-left;">
+                        <img src="/WEBSITE/team-logo-5.png" alt="team">
+                        <h3><a href="team-details.html">Witches and Quizards</a></h3>
+                        <div class="match-info">Group 02 | Match 03rd</div>
+                    </div>
+                    <div class="match-time">
+                        <h3>04:20 <span>15TH Dec 2024</span></h3>
+
+                    </div>
+                    <div class="participate-team oponent wow fade-in-right" data-wow-delay="600ms"
+                        style="visibility: visible; animation-delay: 600ms; animation-name: fade-in-right;">
+                        <h3><a href="team-details.html">Resting Bitch Faces</a></h3>
+                        <div class="match-info">Group 02 | Match 03rd</div>
+                        <img src="/WEBSITE/team-logo-6.png" alt="team">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="container">
+
+
+
+        <div class="section-heading mb-40 text-center wow fade-in-bottom text-white pt-5 pb-5" data-wow-delay="200ms"
+            style="visibility: visible; animation-delay: 200ms; animation-name: fade-in-bottom; ">
+            <h3>Online Gaming Shop</h3>
+            <h2>Explore Our <span class="text-info">Gears</span></h2>
+            <p>Our success in creating business solutions is due in large part <br>to our talented and highly
+                committed team.</p>
+        </div>
+
+
+        <div id="mySlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <div class="product-thumb">
+                                    <img src="/WEBSITE/product-1.png" alt="img">
+                                    <a href="#" class="badge sale">-70%</a>
+
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-inner">
+
+                                        <ul class="rating d-flex ">
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                    <h3><a href="shop-details.html">Steering wheel</a></h3>
+                                    <h4 class="price">$39.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <div class="product-thumb">
+                                    <img src="/WEBSITE/product-2.png" alt="img">
+                                    <a href="#" class="badge out-stock">Out Of Stock</a>
+
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-inner">
+
+                                        <ul class="rating d-flex">
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                    <h3><a href="shop-details.html">Fantech Mouse </a></h3>
+                                    <h4 class="price">$39.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <div class="product-thumb">
+                                    <img src="/WEBSITE/product-3.png" alt="img">
+                                    <a href="#" class="badge out-stock2">IN STOCK</a>
+
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-inner">
+
+                                        <ul class="rating d-flex">
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                    <h3><a href="shop-details.html">Targus Console</a></h3>
+                                    <h4 class="price">$39.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <div class="product-thumb">
+                                    <img src="/WEBSITE/product-4.png" alt="img">
+                                    <a href="#" class="badge out-stock">HOT</a>
+
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-inner">
+
+                                        <ul class="rating d-flex">
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                    <h3><a href="shop-details.html">Xbox Controller</a></h3>
+                                    <h4 class="price">$39.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <div class="product-thumb">
+                                    <img src="/WEBSITE/product-5.png" alt="img">
+                                    <a href="#" class="badge out-stock">Out Of Stock</a>
+
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-inner">
+
+                                        <ul class="rating d-flex">
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                    <h3><a href="shop-details.html">Ergonomic Chair</a></h3>
+                                    <h4 class="price">$39.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <div class="product-thumb">
+                                    <img src="/WEBSITE/product-3.png" alt="img">
+                                    <a href="#" class="badge out-stock">-50%</a>
+
+                                </div>
+                                <div class="product-info">
+                                    <div class="product-inner">
+
+                                        <ul class="rating d-flex">
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                            <li><i style="color: gold;" class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                    <h3><a href="shop-details.html">Targus Console</a></h3>
+                                    <h4 class="price">$39.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mySlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mySlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <section class="blog-section">
+        <div class="container">
+            <div class="section-heading mb-40 text-center wow fade-in-bottom" data-wow-delay="200ms"
+                style="visibility: visible; animation-delay: 200ms; animation-name: fade-in-bottom;">
+                <h3>What's on our mind</h3>
+                <h2>News and <span>Headlines</span></h2>
+                <p>Our success in creating business solutions is due in large part <br>to our talented and highly
+                    committed team.</p>
+            </div>
+            <div class="row grid-post">
+                <div class="col-lg-4 col-md-6 padding-15 wow fade-in-bottom" data-wow-delay="300ms"
+                    style="visibility: visible; animation-delay: 300ms; animation-name: fade-in-bottom;">
+                    <div class="post-card">
+                        <div class="post-thumb">
+                            <img src="/WEBSITE/post-1.jpg" alt="post">
+                            <a href="blog-classic.html" class="post-category">Business</a>
+                        </div>
+                        <div class="post-content-wrap">
+
+                            <div class="post-content">
+                                <h3><a href="blog-details.html">How to start initiating an startup in few days.</a></h3>
+                                <p>Financial experts support or help you to to find out which way you can raise your
+                                    funds more...</p>
+                                <a href="blog-details.html" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 padding-15 wow fade-in-bottom" data-wow-delay="400ms"
+                    style="visibility: visible; animation-delay: 400ms; animation-name: fade-in-bottom;">
+                    <div class="post-card">
+                        <div class="post-thumb">
+                            <img src="/WEBSITE/post-2.jpg" alt="post">
+                            <a href="blog-classic.html" class="post-category">Startup</a>
+                        </div>
+                        <div class="post-content-wrap">
+
+                            <div class="post-content">
+                                <h3><a href="blog-details.html">Financial experts support help you to find out.</a></h3>
+                                <p>Financial experts support or help you to to find out which way you can raise your
+                                    funds more...</p>
+                                <a href="blog-details.html" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 padding-15 wow fade-in-bottom" data-wow-delay="500ms"
+                    style="visibility: visible; animation-delay: 500ms; animation-name: fade-in-bottom;">
+                    <div class="post-card">
+                        <div class="post-thumb">
+                            <img src="/WEBSITE/post-3.jpg" alt="post">
+                            <a href="blog-classic.html" class="post-category">Finance</a>
+                        </div>
+                        <div class="post-content-wrap">
+
+                            <div class="post-content">
+                                <h3><a href="blog-details.html">Innovative business all over the world.</a></h3>
+                                <p>Financial experts support or help you to to find out which way you can raise your
+                                    funds more...</p>
+                                <a href="blog-details.html" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row footer-items">
+                <div class="col-lg-3 col-sm-6 sm-padding">
+                    <div class="footer-item">
+                        <a class="brand" href="index.html"><img height="175"
+                                src="/WEBSITE/squad-game9698-removebg-preview.png" alt="logo"></a>
+                        <p>Our success in creating business solutions is due in large part to our talented and highly
+                            committed team.</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 sm-padding">
+                    <div class="footer-item footer-list">
+
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 sm-padding">
+                    <div class="footer-item">
+                        <div class="widget-title">
+                            <h3>Contact Us</h3>
+                        </div>
+                        <ul class="footer-contact">
+                            <li><span>Location:</span>153 Williamson Plaza, Maggieberg, MT 09514</li>
+                            <li><span>Join Us:</span>Info@YourGmail24.com</li>
+                            <li><span>Phone:</span>+1 (062) 109-9222</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 sm-padding">
+                    <div class="footer-item subscribe-wrap">
+                        <div class="widget-title">
+                            <h3>Newsletter Signup</h3>
+                        </div>
+                        <form action="#" class="subscribe-form" novalidate="true">
+                            <input class="form-control" type="email" name="EMAIL" placeholder="Your Email" required="">
+                            <input type="hidden" name="action" value="mailchimpsubscribe">
+                            <button class="submit">Subscribe Now</button>
+                            <div class="clearfix"></div>
+                            <div id="subscribe-result">
+                                <div class="subscription-success"></div>
+                                <div class="subscription-error"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-wrap">
+            <div class="container">
+                <p>© <span id="currentYear">2023</span> Your Company. All rights reserved.</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
