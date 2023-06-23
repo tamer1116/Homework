@@ -26,6 +26,25 @@
 
 
 
+// function reverse(num) {
+//     let reverseNumber = 0;
+//     while (num > 0) {
+//         endnum = num % 10;
+//         reverseNumber = reverseNumber * 10 + endnum;
+//         num = Math.floor(num / 10);
+//     }
+//     return reverseNumber;
+// }
+
+// let num = 1234;
+// let reverseNumber = reverse(num);
+// console.log(reverseNumber);
+
+
+
+
+
+
 
 //         loops
 
