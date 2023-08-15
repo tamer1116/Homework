@@ -3,19 +3,18 @@ import './App.css'
 import React, { useState } from "react";
 
 function App() {
-
-  const initialPosts = [
+  const Posts = [
     { id: 1, text: "Tamerlan" },
     { id: 2, text: "İbrahimov" },
     { id: 3, text: "İT Brains" },
     { id: 4, text: "Front-end developer" },
     { id: 5, text: "130" },
   ];
-  const [blogPosts, setBlogPosts] = useState(initialPosts);
+  const [blogPosts, setBlogPosts] = useState(Posts);
   const [newPostText, setNewPostText] = useState("");
 
   const handleAddPost = () => {
-    if (newPostText ) {
+    if (newPostText) {
       const newPost = { id: blogPosts + 1, text: newPostText };
       setBlogPosts([...blogPosts, newPost]);
       setNewPostText("");
