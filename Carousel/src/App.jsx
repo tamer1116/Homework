@@ -12,7 +12,7 @@ function App() {
   };
 
   const goToBackSlide = () => {
-    setCurrentIndex((currentIndex - 1 + images.length) % images.length);
+    setCurrentIndex((currentIndex - 1) % images.length);
   };
 
   return (
