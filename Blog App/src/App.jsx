@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <div >
-        <h1>Blog Gönderileri</h1>
+        <h1>Blog Posts</h1>
 
         {blogPosts.map((a) => (
           <p key={a.id}>{a.text}</p>
@@ -37,7 +37,7 @@ function App() {
         value={newPostText}
         onChange={(e) => setNewPostText(e.target.value)}
       />
-      <button onClick={handleAddPost}>Gönder</button>
+      <button onClick={handleAddPost}>Add</button>
     </>
   )
 }
