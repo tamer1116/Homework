@@ -19,6 +19,13 @@ function App() {
       setBlogPosts([...blogPosts, newPost]);
       setNewPostText("");
     }
+
+  };
+
+  const handleDeletePost = (id) => {
+    const updatedPosts = blogPosts.filter(post => post.id !== id);
+    setBlogPosts(updatedPosts);
+
   };
 
   return (
@@ -26,8 +33,12 @@ function App() {
       <div >
         <h1>Blog Posts</h1>
 
-        {blogPosts.map((a) => (
-          <p key={a.id}>{a.text}</p>
+        {blogPosts.map((post) => (
+          <div key={post.id}>
+            
+            <p>{post.text}</p>
+            <button onClick={() => handleDeletePost(post.id)}>Delete</button>
+          </div>
         ))}
 
       </div>
